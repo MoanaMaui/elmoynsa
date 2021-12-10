@@ -21,6 +21,12 @@
      top:0;
      color: black;
     }
+    @media screen and (max-width: 400px) {
+  .top-nav a {
+    float: none;
+    width: 100%;
+  }
+}
     .top-nav a{
       float:right;
       display:block;
@@ -242,7 +248,12 @@ font-size: 20px;;
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
-
+@media screen and (max-width: 400px) {
+  .slideshow-container div {
+    float: none;
+    width: 100%;
+  }
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
